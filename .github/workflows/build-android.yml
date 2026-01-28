@@ -19,7 +19,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-  run: npm install
+        run: npm install
 
       - name: Build Web App
         run: npm run build
@@ -29,9 +29,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-
-      - name: Install Gradle
-        uses: gradle/gradle-build-action@v2
 
       - name: Install Capacitor Android
         run: npm install @capacitor/android
