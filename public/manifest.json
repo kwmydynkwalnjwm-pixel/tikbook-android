@@ -1,0 +1,14 @@
+{
+  "background_color": "#ffffff",
+  "dir": "rtl",
+  "display": "standalone",
+  "name": "TikBook",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "TikBook",
+  "start_url": "/.",
+  "theme_color": "#ffffff",
+  "description": "TikBook - عالمك الفاخر للتواصل",
+  "id": "com.tikbook.app",
+  "lang": "ar"
+}
